@@ -1,5 +1,6 @@
 package dataStructure;
 
+import java.sql.SQLOutput;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -120,19 +121,28 @@ public class Treee {
 
 
         System.out.println("####################");
+        System.out.println("PRE ORDEM");
+        System.out.println("####################");
         tree.preOrder();
         System.out.println("####################");
 
+        System.out.println("####################");
+        System.out.println("EM ORDEM");
         System.out.println("####################");
         tree.inOrder();
         System.out.println("####################");
 
         System.out.println("####################");
+        System.out.println("POS ORDEM");
+        System.out.println("####################");
         tree.posOrder();
         System.out.println("####################");
 
         System.out.println("####################");
+        System.out.println("Busca em largura");
+        System.out.println("####################");
         tree.BFS();
         System.out.println("####################");
+
     }
 }
