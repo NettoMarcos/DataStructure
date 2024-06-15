@@ -1,11 +1,9 @@
 package dataStructure;
 
-import java.sql.SQLOutput;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
-public class Treee {
+public class Tree {
     public Node root;
     public static class Node{
         public int value;
@@ -109,7 +107,7 @@ public class Treee {
 
 
     public static void main(String[] args) {
-        Treee tree = new Treee();
+        Tree tree = new Tree();
 
         tree.insert(37);
         tree.insert(11);
